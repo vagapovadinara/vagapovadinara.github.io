@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+<meta charset="UTF-8">
+<title>Название страницы - отображается на вкладке браузера и в поиске</title>
+<style type="text/css">
+a{
+color: #fff;
+text-decoration: none;
+}
+html{
+background: #FFF8CC;
+min-height: 100%;
+font-family: Helvetica;
+display: flex;
+flex-direction: column;
+}
+body{
+margin: 0;
+padding: 0 15px;
+display: flex;
+flex-direction: column;
+flex: auto;
+}
+h1{
+margin-top: 0;
+}
+h1, p{
+color: #006064;
+}
+img{
+border: 0;
+}
+.header{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: 0 auto 30px;
+padding: 30px 0 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.logo{
+font-size: 1.5rem;
+color: #fff;
+text-decoration: none;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex: none;
+align-items: center;
+background: #839FFF;
+width: 130px;
+height: 50px;
+}
+.nav{
+margin: -5px 0 0 -5px;
+display: flex;
+flex-wrap: wrap;
+}
+.nav-item{
+background: #BDC7FF;
+width: 130px;
+height: 50px;
+font-size: 1.5rem;
+color: #fff;
+text-decoration: none;
+display: flex;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+}
+.sqr{
+height: 300px;
+width: 300px;
+background: #FFDB89;
+}
+
+.main{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: auto;
+flex: auto;
+box-sizing: border-box;
+}
+.box{
+font-size: 1.25rem;
+line-height: 1.5;
+margin: 0 0 40px -50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.box-base{
+margin-left: 50px;
+flex: 1 0 430px;
+}
+.box-side{
+margin-left: 50px;
+font: none;
+}
+.box-img{
+max-width: 100%;
+height: auto;
+}
+.content{
+margin-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+}
+.banners{
+flex: 1 1 200px;
+}
+.banner{
+background: #FFDB89;
+width: 100%;
+min-width: 100px;
+min-height: 200px;
+font-size: 3rem;
+color: #fff;
+margin: 0 0 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.posts{
+margin: 0 0 30px 30px;
+flex: 1 1 200px;
+}
+.comments{
+margin: 0 0 30px 30px;
+flex: 1 1 200px;
+}
+.comment{
+display: flex;
+}
+.comment-side{
+padding-right: 20px;
+flex: none;
+}
+.comment-base{
+flex: auto;
+}
+.comment-avatar{
+background: #FFA985;
+width: 50px;
+height: 50px;
+}
+.footer{
+background: #FF3366;
+width: 100%;
+max-width: 960px;
+min-width: 460px;
+color: #fff;
+margin: auto;
+padding: 15px;
+box-sizing: border-box;
+}
+
+@media screen and  (max-width: 800px) {
+.banners{
+margin-left: -30px;
+display: flex;
+flex-basis: 100%;
+}
+.banner{
+margin-left: 30px;
+}
+.posts{
+margin-left: 0;
+}
+}
+@media screen and  (max-width: 600px) {
+.content{
+display: block;
+}
+.banners{
+margin: 0;
+display: block;
+}
+.banner{
+margin-left: 0;
+}
+.posts{
+margin: 0;
+}
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a class="logo">
+<img
+              src="C:\Users\Динара\Desktop\Книжный_город\photo\i1.png"
+              alt="i1"
+            />
+</a>
+<nav class="nav">
+<a href="#posts" class="nav-item">Товары</a>
+<a href="rev.html" class="nav-item">Отзывы</a>
+<a href="#footer" class="nav-item">Контакты</a>
+<a href="error.html" class="nav-item">Аудиокниги</a>
+</nav>
+
+</header>
+<main class="main">
+<div class="box">
+<div class="box-base">
+<h1>Книжный город</h1>
+<p>«Книжный город» – это самая большая в России сеть книжных магазинов и интернет-магазин.</p>
+
+<p>Мы не просто продаём книги, а разделяем любовь наших покупателей к чтению. Нам знакомо чувство, когда хорошие романы заканчиваются слишком быстро, времени в дороге не хватает, чтобы дочитать главу, а героиня никак не может найти свою любовь. Мы знаем, как быстро летит время в компании с новинкой любимого автора и как сильно хочется растянуть это удовольствие.</p>
+<p>Помимо книг в «Книжном городе» можно найти канцтовары, сладости, подарочную упаковку и идеи для сюрпризов близким. Мы сами разрабатываем дизайны для многих ежедневников, закладок, товаров для творчества и других интересных вещей, поэтому кроме как в «Книжный город» их больше нигде не найти.</p>
+</div>
+<div class="box-side">
+<div class="sqr">
+<img
+              src="C:\Users\Динара\Desktop\Книжный_город\photo\i17.png"
+              alt="i17"
+            
+            /></div>
+</div>
+</div>
+</div>
+<div class="content">
+<div class="banners">
+<div class="banner">
+ <img
+              src="C:\Users\Динара\Desktop\Книжный_город\photo\i2.png"
+              alt="i2"
+            
+            /></div>
+<div class="banner">
+ <img
+              src="C:\Users\Динара\Desktop\Книжный_город\photo\i15.png"
+              alt="i15"
+            
+            /></div>
+<div class="banner">
+ <img
+              src="C:\Users\Динара\Desktop\Книжный_город\photo\i16.png"
+              alt="i16"
+            
+            />
+
+</div>
+</div>
+<div class="posts"  id="posts">
+<div class="post">
+<h1>Любимые книги в новых обложках</h1>
+<p>Классические произведения всегда несут печать своего времени, историческое содержание. Они концентрируют значительные накопленные веками вечные истины, ценности. Произведения классической литературы  не теряют с годами насущного интереса и художественного значения. Но, к сожалению, теряют интерес.</p>
+<p>Только с возрастом понимаешь ценность произведений школьной программы. Мы подготовили для вас незаменимую классику в новых обложках. Благодаря этому, каждый читатель сможет не только окунуться в мир классической литературы, но и насладиться визуалом книжного переплета.</p>
+</div>
+<div class="post">
+<h1>ЕГЭ и ОГЭ</h1>
+<p>В нашем ассортименте представлены самые актуальные сборники для подготовки к Единому и Основному государственным экзаменам. В сборнике собраны варианты с задачами, которые вероятнее всего встретятся на экзамене в этом году.</p>
+<p>Выполнение заданий типовых экзаменационных вариантов предоставляет обучающимся возможность самостоятельно подготовиться к государственной итоговой аттестации в форме ЕГЭ, а также объективно оценить уровень своей подготовки к экзамену. Учителя могут использовать типовые экзаменационные варианты для организации контроля результатов освоения школьниками образовательных программ среднего общего образования и интенсивной подготовки обучающихся к ЕГЭ.</p>
+</div>
+<div class="post">
+<h1>Словари</h1>
+<p>Решил подтянуть школьный английский? Нужно выучить китайский для работы? Нужна латынь для учебы в медицинском? Не знаете как объяснить значение слова вашему ребенку? </p>
+<p>Ответ прост, все это вы можете найти в нашем магазине.</p>
+<p>Ни одно изучение языка не останется без словаря. В нашей коллекции представлены словари, которые подойдут именно вам. Ни одно изучение языка не останется без словаря. В нашей коллекции представлены словари, которые подойдут именно вам.</p>
+</div>
+</div>
+
+
+</div>
+</div>
+
+</div>
+</div>
+</main>
+<footer class="footer"  id="footer">
+<h3>«Книжный город»</h3>
+<p>
+ – крупнейшая сеть книжных магазинов, успешно работающих в Москве и других регионах России.<br>
+</p>
+<p>
+А ещё это – крупный интернет-магазин книг. В нём вы можете заказывать книги в любое время 24 часа в сутки.<br>
+</p>
+<h3>Наши контакты для связи:</h3> 
+<p>© Вагапова Динара Рустамовна</p>
+<p>+7(960)-035-92-18</p>
+<h3>Принимаем к оплате:</h3> 
+<img
+              src="C:\Users\Динара\Desktop\Книжный_город\photo\i10.png"
+              alt="i10"
+            />
+<img
+              src="C:\Users\Динара\Desktop\Книжный_город\photo\i11.png"
+              alt="i11"
+            />
+<img
+              src="C:\Users\Динара\Desktop\Книжный_город\photo\i12.png"
+              alt="i12"
+            />
+</footer>
+</body>
+</html>
